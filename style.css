@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100%;
+  height: vh;
+}
+.container {
+  width: 95%;
+  padding: 2%;
+  margin: auto;
+}
+.row {
+  border: 1px solid cyan;
+  padding: 40%;
+}
+.dateInput {
+  text-align: center;
+}
+#caption {
+  text-align: center;
+}
+button {
+  padding: 0.5rem;
+  background-color: rgb(9, 6, 173);
+  color: white;
+  text-align: center;
+  width: 10rem;
+  border-radius: 15px;
+}
+.btns {
+  text-align: center;
+}
+table,
+th,
+td {
+  border: 1px solid cyan;
+}
+#am,
+#mid,
+#pm {
+  border: none;
+  width: 100%;
+  padding: 2%;
+}
+#am:focus,
+#mid:focus,
+#pm:focus {
+  border: 1px solid lightskyblue;
+  width: 100%;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+th {
+  font-size: 90%;
+  padding: 1%;
+}
